@@ -1,0 +1,15 @@
+
+<div class="home-wrapper">
+<h1>I like you. We share the same passion. We live the YOLO life but we say it more in the ironic way to make of fun of those who say YOLO. Kind of like when you say hashtag. Anyways... Sign this petition you sexy beast you.</h1>
+
+<form name="data" method="POST">
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+  First: <input type="text" name="first_name" value="{{fname}}" required>     <br>
+  Last: <input type="text" name="last_name" value="{{lname}}"required>       <br>
+  Sign Here!! <br>
+  <input id="hiddencanvas" type="hidden" name="signature">
+  <canvas id="canvas" width="600" height="120"></canvas><br>
+  <input id='submit' type="submit" value="Submit">
+</form>
+<h2>You already sign? Great! Don't sign again. <a href="/signers">Click Here</a></h2>
+</div>

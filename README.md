@@ -1,0 +1,1 @@
+This application was designed while in Spiced Academy to allow users to sign a petition. The petition was aimed at the idea to introduce Margarita Mondays at school. Using html5 and css3, the user would also sign the petition using canvas. The application allowed users to register and update their info on an edit page. 

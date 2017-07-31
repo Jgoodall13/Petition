@@ -1,0 +1,185 @@
+
+
+header {
+    height: 80px;
+     background:linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/public/limanity.jpg");
+     background-size: cover;
+     border-bottom: 2px solid green;
+}
+
+#playtime {
+  text-align: center;
+  font-family: Kurale;
+  font-size: 69px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Kurale;
+}
+
+h2{
+    text-align: center;
+    font-family: Kurale;
+}
+
+#silly {
+    text-align: center;
+    font-family: Kurale;
+}
+
+.error {
+    text-align: center;
+    color: red;
+}
+
+
+.wrapper {
+    background:linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/public/limanity.jpg");
+    background-size: cover;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+}
+
+.profile-wrapper {
+    background-image: url("/public/limanity.jpg");
+    background-size: cover;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    min-height: 1000px;
+}
+
+.home-wrapper {
+    background-image: url("/public/limanity.jpg");
+    min-height: 800px;
+}
+
+.signed-wrapper {
+    background-image: url("/public/limanity.jpg");
+    min-height: 800px;
+}
+
+.signers-wrapper {
+    background-image: url("/public/limanity.jpg");
+}
+
+.login-wrapper {
+    background-image: url("/public/limanity.jpg");
+    background-size: cover;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    min-height: 1000px;
+}
+
+.edit-wrapper {
+    background-image: url("/public/limanity.jpg");
+    background-size: cover;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    min-height: 1000px;
+}
+
+.margarita{
+    max-height: 400px;
+    box-shadow: 10px 10px 20px 10px #888888;
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.log-form {
+    margin-top: 20px;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+#login {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: green;
+    font-size: 20px;
+    color: yellow;
+}
+
+#create{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: green;
+    font-size: 20px;
+    color: yellow;
+}
+
+#submit {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: green;
+    font-size: 20px;
+    color: yellow;
+}
+
+.reggie {
+    padding-top: 20px;
+}
+
+.reg-fields {
+    background-color: #e8e5df;
+    margin-top: 15px;
+    width: 150px;
+    background-color: white;
+}
+
+#signup {
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: green;
+    color: yellow;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#update {
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: green;
+    color: yellow;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#picture{
+    display: block;
+    margin: 0 auto;
+}
+
+canvas {
+  background-color: yellow;
+  border: 2px solid green;
+}
+
+form {
+  text-align: center;
+}
+
+#canvasDiv {
+  text-align: center;
+}
+
+ul {
+    display: block;
+    text-align:center;
+}
+ul li {
+    display:
+    inline-block;
+}
+
+footer {
+    height: 50px;
+    border-bottom: 2px solid green;
+}
