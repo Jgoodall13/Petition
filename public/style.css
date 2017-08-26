@@ -1,19 +1,17 @@
-
-
 header {
     height: 80px;
-     background-image: url("/public/limanity.jpg");
-     background-size: cover;
-     border-bottom: 2px solid green;
+    background-image: url("/public/limanity.jpg");
+    background-size: cover;
+    border-bottom: 2px solid green;
 }
 
 #playtime {
-  text-align: center;
-  font-family: Kurale;
-  font-size: 69px;
+    text-align: center;
+    font-family: Kurale;
+    font-size: 69px;
 }
 
-#register-div{
+#register-div {
     height: 100%;
 }
 
@@ -22,12 +20,12 @@ h1 {
     font-family: Kurale;
 }
 
-h2{
+h2 {
     text-align: center;
     font-family: Kurale;
 }
 
-h5{
+h5 {
     margin: 0;
     padding: 0;
     color: blue;
@@ -42,7 +40,6 @@ h5{
     text-align: center;
     color: red;
 }
-
 
 .wrapper {
     background-image: url("/public/limanity.jpg");
@@ -94,7 +91,7 @@ h5{
     background-size: 100% auto;
 }
 
-.margarita{
+.margarita {
     max-height: 400px;
     margin-bottom: 20px;
     display: block;
@@ -114,13 +111,13 @@ h5{
     border: none;
 }
 
-#login:hover{
+#login:hover {
     cursor: pointer;
     background-color: yellow;
     color: green;
 }
 
-#create{
+#create {
     width: 200px;
     height: 30px;
     border-radius: 10px;
@@ -130,7 +127,7 @@ h5{
     border: none;
 }
 
-#create:hover{
+#create:hover {
     cursor: pointer;
     background-color: yellow;
     color: green;
@@ -146,7 +143,7 @@ h5{
     border: none;
 }
 
-#submit:hover{
+#submit:hover {
     cursor: pointer;
     background-color: yellow;
     color: green;
@@ -163,7 +160,7 @@ h5{
     border: none;
 }
 
-#signup:hover{
+#signup:hover {
     cursor: pointer;
     background-color: yellow;
     color: green;
@@ -180,46 +177,45 @@ h5{
     border: none;
 }
 
-#update:hover{
+#update:hover {
     cursor: pointer;
     background-color: yellow;
     color: green;
 }
 
-#picture{
+#picture {
     display: block;
     margin: 0 auto;
 }
 
 canvas {
-  background-color: yellow;
-  border: 2px solid green;
+    background-color: yellow;
+    border: 2px solid green;
 }
 
 form {
-  text-align: center;
+    text-align: center;
 }
 
-input::placeholder{
+input::placeholder {
     text-align: center;
 }
 
 #canvasDiv {
-  text-align: center;
+    text-align: center;
 }
 
-a{
+a {
     color: blue;
 }
 
 ul {
     display: block;
-    text-align:center;
+    text-align: center;
 }
 
 ul li {
-    display:
-    inline-block;
+    display: inline-block;
 }
 
 footer {
