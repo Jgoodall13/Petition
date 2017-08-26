@@ -1,14 +1,11 @@
 <div class="profile-wrapper">
 <h1>I'll buy you a drink.. now you tell me a bit about yourself.</h1>
 <img class="margarita" src="http://www.seriouseats.com/recipes/assets_c/2015/04/20150323-cocktails-vicky-wasik-margarita-thumb-1500xauto-421493.jpg" alt="">
-<form style="color:black; font-size: 20px" name="profile" method="POST">
+<form name="profile" method="POST">
     <input type="hidden" name="_csrf" value="{{csrfToken}}">
-  <input class="reg-fields" type="text" name="age"><br>
-  AGE<br>
-  <input class="reg-fields" type="text" name="city"><br>
-  CITY<br>
-  <input class="reg-fields" type="text" name="homepage"><br>
-  HOMEPAGE<br>
+  <input class="reg-fields" type="text" name="age" placeholder="Age"><br>
+  <input class="reg-fields" type="text" name="city" placeholder="City"><br>
+  <input class="reg-fields" type="text" name="homepage" placeholder="Homepage"><br>
   <input id='create' type="submit" value="Create">
 </form>
 </div>

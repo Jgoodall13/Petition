@@ -1,17 +1,12 @@
 <div class="login-wrapper">
-<h1>Please log in you alcoholic you!</h1>
-<img class="margarita" src="http://www.seriouseats.com/recipes/assets_c/2015/04/20150323-cocktails-vicky-wasik-margarita-thumb-1500xauto-421493.jpg" alt="">
-
-<h3 class="error">{{wrong}}</h3>
-<form class="log-form" name="login-form"  method="POST">
-    <input type="hidden" name="_csrf" value="{{csrfToken}}">
-    <input type="email" name="email_log" required><br>
-    Email<br>
-    <input type="password" name="password_log" required><br>
-    Password<br>
-    <input id='login' type="submit" value="Let's Drink!">
-</form>
-
-
+    <h1>Please log in!</h1>
+    <img class="margarita" src="http://www.seriouseats.com/recipes/assets_c/2015/04/20150323-cocktails-vicky-wasik-margarita-thumb-1500xauto-421493.jpg" alt="">
+    <h3 class="error">{{wrong}}</h3>
+    <form class="log-form" name="login-form" method="POST">
+        <input type="hidden" name="_csrf" value="{{csrfToken}}">
+        <input type="email" name="email_log" placeholder="Email" required><br>
+        <input type="password" name="password_log" placeholder="Password" required><br>
+        <input id="login" type="submit" value="Let's Drink!">
+    </form>
 </div>
-<h4>Not a member yet? Why they hell not? <a href="/register">Register Now!</a></h4>
+<h4>Not a member yet? Why not? <a href="/register">Register Now!</a></h4>

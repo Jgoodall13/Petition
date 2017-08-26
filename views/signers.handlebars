@@ -1,28 +1,23 @@
 <div class="signers-wrapper">
-<h1>Fellow World Wide Wrecking Crew Memebers!</h1>
+    <h1>Fellow people who believe in our goal</h1>
 
     {{#each list}}
-    <ul>
-        <li>
-            {{#if url}}
-                <a href="http://{{url}}" target="_blank">{{first_name}} {{last_name}}</a>
-            {{else}}
+        <ul>
+            <li>
                 {{first_name}} {{last_name}}
-            {{/if}}
-            {{#if age}}
+                {{#if age}}
                     ( {{age}}
-            {{else}}
-                {{#if city}}
-                    (<a href="/signers/{{city}}">{{city}}</a>)
+                {{else}}
+                    {{#if city}}
+                        ( {{city}})
+                    {{/if}}
                 {{/if}}
-            {{/if}}
-            {{#if city}},
-                <a href="/signers/{{city}}">{{city}}</a>)
-            {{else}}
-                {{#if age}}){{/if}}
-            {{/if}}
-        </li>
-    </ul>
+                {{#if city}}, {{city}})
+                {{else}}
+                    {{#if age}}){{/if}}
+                {{/if}}
+            </li>
+        </ul>
     {{/each}}
 
-<h4>Let's look at that John Hancock again! <a href="/signed">Click Here!</a></h4>
+    <h4>Let's look at that John Hancock again! <a href="/signed">Click Here!</a></h4>

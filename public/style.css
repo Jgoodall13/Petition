@@ -2,7 +2,7 @@
 
 header {
     height: 80px;
-     background:linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/public/limanity.jpg");
+     background-image: url("/public/limanity.jpg");
      background-size: cover;
      border-bottom: 2px solid green;
 }
@@ -13,6 +13,10 @@ header {
   font-size: 69px;
 }
 
+#register-div{
+    height: 100%;
+}
+
 h1 {
     text-align: center;
     font-family: Kurale;
@@ -21,6 +25,12 @@ h1 {
 h2{
     text-align: center;
     font-family: Kurale;
+}
+
+h5{
+    margin: 0;
+    padding: 0;
+    color: blue;
 }
 
 #silly {
@@ -35,7 +45,7 @@ h2{
 
 
 .wrapper {
-    background:linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/public/limanity.jpg");
+    background-image: url("/public/limanity.jpg");
     background-size: cover;
     border-top: 2px solid green;
     border-bottom: 2px solid green;
@@ -46,17 +56,20 @@ h2{
     background-size: cover;
     border-top: 2px solid green;
     border-bottom: 2px solid green;
-    min-height: 1000px;
+    height: 100vh;
+    background-size: 100% auto;
 }
 
 .home-wrapper {
     background-image: url("/public/limanity.jpg");
-    min-height: 800px;
+    height: 100vh;
+    background-size: 100% auto;
 }
 
 .signed-wrapper {
     background-image: url("/public/limanity.jpg");
-    min-height: 800px;
+    height: 100vh;
+    background-size: 100% auto;
 }
 
 .signers-wrapper {
@@ -68,7 +81,8 @@ h2{
     background-size: cover;
     border-top: 2px solid green;
     border-bottom: 2px solid green;
-    min-height: 1000px;
+    height: 100vh;
+    background-size: 100% auto;
 }
 
 .edit-wrapper {
@@ -76,22 +90,18 @@ h2{
     background-size: cover;
     border-top: 2px solid green;
     border-bottom: 2px solid green;
-    min-height: 1000px;
+    height: 100vh;
+    background-size: 100% auto;
 }
 
 .margarita{
     max-height: 400px;
-    box-shadow: 10px 10px 20px 10px #888888;
     margin-bottom: 20px;
     display: block;
     margin: 0 auto;
     margin-top: 20px;
-}
-
-.log-form {
-    margin-top: 20px;
-    font-size: 28px;
-    margin-top: 10px;
+    border-radius: 50%;
+    border: 5px solid green;
 }
 
 #login {
@@ -101,6 +111,13 @@ h2{
     background-color: green;
     font-size: 20px;
     color: yellow;
+    border: none;
+}
+
+#login:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: green;
 }
 
 #create{
@@ -110,6 +127,13 @@ h2{
     background-color: green;
     font-size: 20px;
     color: yellow;
+    border: none;
+}
+
+#create:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: green;
 }
 
 #submit {
@@ -119,17 +143,13 @@ h2{
     background-color: green;
     font-size: 20px;
     color: yellow;
+    border: none;
 }
 
-.reggie {
-    padding-top: 20px;
-}
-
-.reg-fields {
-    background-color: #e8e5df;
-    margin-top: 15px;
-    width: 150px;
-    background-color: white;
+#submit:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: green;
 }
 
 #signup {
@@ -140,6 +160,13 @@ h2{
     color: yellow;
     font-size: 20px;
     margin-bottom: 20px;
+    border: none;
+}
+
+#signup:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: green;
 }
 
 #update {
@@ -150,6 +177,13 @@ h2{
     color: yellow;
     font-size: 20px;
     margin-bottom: 20px;
+    border: none;
+}
+
+#update:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: green;
 }
 
 #picture{
@@ -166,14 +200,23 @@ form {
   text-align: center;
 }
 
+input::placeholder{
+    text-align: center;
+}
+
 #canvasDiv {
   text-align: center;
+}
+
+a{
+    color: blue;
 }
 
 ul {
     display: block;
     text-align:center;
 }
+
 ul li {
     display:
     inline-block;
